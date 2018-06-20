@@ -47,13 +47,13 @@
 	<repository>
 		<id>deploymentRepo</id>
 		<name>Internal Releases</name>
-		<url>http://18.191.159.15:8081/repository/maven-releases/</url>
+		<url>http://ec2-18-191-159-15.us-east-2.compute.amazonaws.com:8081/repository/maven-releases/</url>
 	</repository>
  
 	<snapshotRepository>
 		<id>deploymentRepo</id>
 		<name>Internal Releases</name>
-		<url>http://18.191.159.15:8081/repository/maven-snapshots/</url>
+		<url>http://ec2-18-191-159-15.us-east-2.compute.amazonaws.com:8081/repository/maven-snapshots/</url>
 	</snapshotRepository>
 
 </distributionManagement>
